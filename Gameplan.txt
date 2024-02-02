@@ -1,7 +1,7 @@
 # Raspberry Pi
-    - Raspberry Pi 3 ()
-    - R307 Fingerprint Module ()
+    - Raspberry Pi 3 B+ ($51.91 Amazon)
+    - R307 Fingerprint Module ($18.48 Amazon)
 
 # Arduino 
-    - Arduino Uno ()
-    - FPM10A ()
+    - Arduino Uno ($27.50 Amazon)
+    - FPM11A ($24.99 Amazon)
