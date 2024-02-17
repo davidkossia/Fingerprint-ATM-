@@ -19,10 +19,8 @@ else:
     print()
     if count == 1:  # only 1 number
         print("You entered 1 number")
-
     else:   # multiple numbers
         print(f"You entered {count} numbers")
-
     print(f"The maximun is {max}")
     print(f"The minimum is {min}")
     print()
