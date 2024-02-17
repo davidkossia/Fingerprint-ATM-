@@ -1,8 +1,10 @@
 import cv2
-import numpy as np
+# import numpy as np
 
 
 def extract_fingerprint(image):
+    # 1) RGB -> GRAYSCALE
+    # 2) return thresholded image
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     _, thresh = cv2.threshold(gray_image, 127, 255, cv2.THRESH_BINARY)
     contours, _ = cv2.findContours(thresh, cv2.RETR_TREE,
