@@ -28,3 +28,7 @@ def main():
     fingerprint = extract_fingerprint(image)
     if fingerprint:
         pass
+
+
+if __name__ == 'main':
+    main()
